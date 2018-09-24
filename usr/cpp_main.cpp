@@ -57,7 +57,7 @@ extern "C" void version_handler()
 {
 	  if (NBT_handler(&publish_nbt))
 	  {
-		  char version[] = "version: 0.1";
+		  char version[] = "version: 0.2";
 		  str_msg.data = version;
 		  chatter.publish(&str_msg);
 

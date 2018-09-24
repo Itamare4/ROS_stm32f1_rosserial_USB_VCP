@@ -491,6 +491,7 @@ public:
         ti.md5sum = (char *) publishers[i]->msg_->getMD5();
         ti.buffer_size = OUTPUT_SIZE;
         publish(publishers[i]->getEndpointType(), &ti);
+        HAL_Delay(50);
       }
     }
     for (i = 0; i < MAX_SUBSCRIBERS; i++)
@@ -503,6 +504,7 @@ public:
         ti.md5sum = (char *) subscribers[i]->getMsgMD5();
         ti.buffer_size = INPUT_SIZE;
         publish(subscribers[i]->getEndpointType(), &ti);
+        HAL_Delay(50);
       }
     }
     configured_ = true;

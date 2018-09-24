@@ -11,6 +11,11 @@ Rosserial interface based on USB VCP for STM32F103C8, ported from from stm32F4 r
 Works with ROS kinetic distro.
 
 ### Changelog ###
+* 0.2 -
+Fixed ROS error on topic id..,<br>
+python node processed only the second topic due to fast data transmission, that's why it only worked with one publisher/subscriber,<br>
+added HAL_Delay on the first handshake between rosnode and MCU(node_handle.h)
+
 * 0.1 -
 JTAG Debug on board works, only works with one publisher / subscriber.<br>
 *ERROR* - "Tried to publish before configured, topic id 105" on publisher and subscriber together, will be fixed on next version.
