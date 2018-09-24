@@ -21,7 +21,7 @@ JTAG Debug on board works, only works with one publisher / subscriber.<br>
 *ERROR* - "Tried to publish before configured, topic id 105" on publisher and subscriber together, will be fixed on next version.
 
 ### HOW-TO ###
-* Solder 1.5K pull-up resistor between PA12 and 3.3v.
+* Remove R10, and solder 1.5K pull-up resistor between PA12 and 3.3v.
 <p align="center">
 <img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_back.jpg?raw=true" height="400" width=auto>
 </p>
