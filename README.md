@@ -2,8 +2,8 @@ ROS_stm32f1_rosserial_USB_VCP
 ------------------------
 
 <p align="center">
-<img src="https://github.com/Itamare4/ROS_stm32f1_rosserial_USB_VCP/blob/master/MD_Images/stm32_front.jpg?raw=true" height="400" width=auto>
-<img src="https://github.com/Itamare4/ROS_stm32f1_rosserial_USB_VCP/blob/master/MD_Images/ros_terminal.png?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_front.jpg?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/ros_terminal.png?raw=true" height="400" width=auto>
 </p>
 
 ### Brief ###
@@ -18,12 +18,12 @@ error - "Tried to publish before configured, topic id 105" on publisher and subs
 ### HOW-TO ###
 * Solder 1.5K pull-up resistor between PA12 and 3.3v.
 <p align="center">
-<img src="https://github.com/Itamare4/ROS_stm32f1_rosserial_USB_VCP/blob/master/MD_Images/stm32_back.jpg?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_back.jpg?raw=true" height="400" width=auto>
 </p>
 
 * Connect JTAG pins on the STM32F103C8 to Nucleo board or st-link
 <p align="center">
-<img src="https://github.com/Itamare4/ROS_stm32f1_rosserial_USB_VCP/blob/master/MD_Images/stm32_debugger.jpg?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_debugger.jpg?raw=true" height="400" width=auto>
 </p>
 
 * Burn the firmware using systemworkbench AC6,
