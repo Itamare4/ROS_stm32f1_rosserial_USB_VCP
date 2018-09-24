@@ -2,8 +2,8 @@ ROS_stm32f1_rosserial_USB_VCP
 ------------------------
 
 <p align="center">
-<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_front.jpg?raw=true" height="400" width=auto>
-<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/ros_terminal.png?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_front.jpg?raw=true" height="200" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/ros_terminal.png?raw=true" height="200" width=auto>
 </p>
 
 ### Brief ###
@@ -23,7 +23,7 @@ error - "Tried to publish before configured, topic id 105" on publisher and subs
 
 * Connect JTAG pins on the STM32F103C8 to Nucleo board or st-link
 <p align="center">
-<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_debugger.jpg?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis/blob/master/MD_Images/stm32_debugger.jpg?raw=true" height="200" width=auto>
 </p>
 
 * Burn the firmware using systemworkbench AC6,
@@ -39,6 +39,13 @@ error - "Tried to publish before configured, topic id 105" on publisher and subs
 
 Notice: Baudrate on VCP protocol is determine by the host(MCU), no need to set it as parameter on rosrun...
 
+It is better to generate you own ros_lib on your system to get all your messeages, do the following - 
+```
+   	cd <sketchbook>/libraries
+   	rm -rf ros_lib
+   	rosrun rosserial_arduino make_libraries.py .
+``` 
+and copy ros_lib to the systemworkbench project folder.
 
 ### About ###
 Itamar Eliakim<br>
