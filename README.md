@@ -7,13 +7,13 @@ ROS_stm32f1_rosserial_USB_VCP
 </p>
 
 ### Brief ###
-Rosserial interface based on USB VCP for STM32F103C8, ported from from stm32F4 rosserial UART repo - https://github.com/johnsonzzd/rosserial_stm32_NucleoF411
+Rosserial interface based on USB VCP for STM32F103C8, ported from from stm32F4 rosserial UART repo - https://github.com/johnsonzzd/rosserial_stm32_NucleoF411<br>
 Works with ROS kinetic distro.
 
 ### Changelog ###
 * 0.1 -
-JTAG Debug on board works, only works with one publisher / subscriber.
-error - "Tried to publish before configured, topic id 105" on publisher and subscriber together, will be fixed on next version.
+JTAG Debug on board works, only works with one publisher / subscriber.<br>
+*ERROR* - "Tried to publish before configured, topic id 105" on publisher and subscriber together, will be fixed on next version.
 
 ### HOW-TO ###
 * Solder 1.5K pull-up resistor between PA12 and 3.3v.
