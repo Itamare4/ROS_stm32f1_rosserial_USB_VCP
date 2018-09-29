@@ -115,6 +115,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   	HAL_Delay(1000);					//Delay for USB-VCP
+  	init_ledStatus();
 	init_ROS();
 
 
