@@ -2,7 +2,7 @@
  * nbt.h
  *
  *  Created on: Jun 10, 2018
- *      Author: Itama
+ *      Author: Itamar Eliakim
  */
 
 #ifndef NBT_H_

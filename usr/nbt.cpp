@@ -2,16 +2,13 @@
  * non_blocking_timer.c
  *
  *  Created on: Jun 10, 2018
- *      Author: Itama
+ *      Author: Itamar Eliakim
  */
 
 #include "stm32f1xx_hal.h"
 #include "nbt.h"
 
 //NBT - Non Blocking Timer
-//Similar to blink without delay example from Arduino
-
-
 void NBT_init(nbt_t * nbt, uint32_t interval)
 {
 	nbt->timeout = interval;

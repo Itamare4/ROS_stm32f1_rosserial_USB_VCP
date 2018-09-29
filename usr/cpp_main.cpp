@@ -2,7 +2,7 @@
  * cpp_main.c
  *
  *  Created on: Jun 10, 2018
- *      Author: Itama
+ *      Author: Itamar Eliakim
  */
 
 #include <cpp_main.h>
