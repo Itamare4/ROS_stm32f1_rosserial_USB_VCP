@@ -2,7 +2,7 @@
  * ledStatus.cpp
  *
  *  Created on: Sep 23, 2018
- *      Author: Itama
+ *      Author: Itamar Eliakim
  */
 
 #include "stm32f1xx_hal.h"
